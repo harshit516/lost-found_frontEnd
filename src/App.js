@@ -3,11 +3,10 @@ import Button from "@material-ui/core/Button";
 
 function App() {
     return (
-        <div className="container">
+        <div>
             <Button variant="contained" color="primary">
                 Default
             </Button>
-            <i class="fas fa-arrow-up "></i>
         </div>
     );
 }
