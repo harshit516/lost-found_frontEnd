@@ -8,16 +8,18 @@ const theme = createMuiTheme({
     palette: {
         primary: {
             contrastText: "#f5f5f5",
-            main: "#ff9933",
+
             light: "#fa5",
-            dark: "#f81"
+            dark: "#f81",
+            main: "#22e69e"
         },
         secondary: {
             contrastText: "#ff9933",
             main: "#f5f5f5",
             light: "#fafafa",
             dark: "#e0e0e0"
-        }
+        },
+        type: "dark"
     }
 });
 ReactDOM.render(

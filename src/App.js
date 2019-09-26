@@ -1,12 +1,16 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
+
+import Navbar from "./components/common/Navbar";
+import MainState from "./context/main/MainState";
+import { CssBaseline } from "@material-ui/core";
 
 function App() {
     return (
         <div>
-            <Button variant="contained" color="primary">
-                Default
-            </Button>
+            <CssBaseline />{" "}
+            <MainState>
+                <Navbar />
+            </MainState>{" "}
         </div>
     );
 }
