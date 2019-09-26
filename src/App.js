@@ -1,5 +1,4 @@
 import React from "react";
-
 import Navbar from "./components/common/Navbar";
 import MainState from "./context/main/MainState";
 import { CssBaseline } from "@material-ui/core";
@@ -7,10 +6,10 @@ import { CssBaseline } from "@material-ui/core";
 function App() {
     return (
         <div>
-            <CssBaseline />{" "}
+            <CssBaseline />
             <MainState>
                 <Navbar />
-            </MainState>{" "}
+            </MainState>
         </div>
     );
 }

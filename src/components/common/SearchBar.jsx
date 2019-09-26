@@ -7,7 +7,7 @@ import SearchIcon from "@material-ui/icons/SearchOutlined";
 const useStyles = makeStyles(theme => ({
     search: {
         position: "relative",
-        backgroundColor: theme.palette.secondary.dark,
+        backgroundColor: theme.palette.secondary.main,
         borderRadius: theme.shape.borderRadius,
         marginLeft: theme.spacing(2),
         marginRight: theme.spacing(2),
@@ -31,9 +31,9 @@ const SearchBar = props => {
                 fullWidth
                 color="primary"
                 style={{
-                    color: "#999796",
-                    fontWeight: "500",
-                    paddingLeft: "1rem"
+                    fontWeight: "534",
+                    paddingLeft: "1rem",
+                    color: "#636363"
                 }}
                 placeholder="Search..."
             />
