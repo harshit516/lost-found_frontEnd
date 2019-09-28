@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import ReactDOM from "react-dom";
 import { ThemeProvider } from "@material-ui/styles";
 import { createMuiTheme } from "@material-ui/core/styles";
@@ -17,6 +17,7 @@ const theme = createMuiTheme({
 });
 ReactDOM.render(
     <ThemeProvider theme={theme}>
+        {console.log("hello")}
         <App />
     </ThemeProvider>,
     document.getElementById("root")

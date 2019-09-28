@@ -64,7 +64,8 @@ const Navbar = () => {
                     <span style={{ marginLeft: "auto" }}>
                         <Hidden xsDown>
                             <Button
-                                text="signup"
+                                variant="outlined"
+                                text="Login"
                                 color="primary"
                                 onClick={mainContext.handleModalOpen}
                             ></Button>

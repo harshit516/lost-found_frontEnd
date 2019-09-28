@@ -13,7 +13,8 @@ import {
 const MainState = props => {
     const initialState = {
         open_Login_Modal: false,
-        drawer_state: false
+        drawer_state: false,
+        theme_type: "dark"
     };
     const [state, dispatch] = useReducer(MainReducer, initialState);
 
@@ -36,6 +37,7 @@ const MainState = props => {
             value={{
                 open_Login_Modal: state.open_Login_Modal,
                 drawer_state: state.drawer_state,
+                theme_type: state.theme_type,
                 handleModalClose,
                 handleModalOpen,
                 toggleDraweOpen,
