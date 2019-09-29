@@ -15,13 +15,9 @@ import Divider from "@material-ui/core/Divider";
 import Hidden from "@material-ui/core/Hidden";
 import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles(theme => ({
-    parent: {
-        // backgroundColor: "",
-        "&:hover $child": {
-            color: theme.palette.primary.main
-        }
-    },
-    child: {}
+    title: {
+        backgroundColor: theme.palette.background.paper
+    }
 }));
 const StyledMenuItem = withStyles(theme => ({
     root: {
@@ -50,7 +46,7 @@ const MenuButton = () => {
             onClick={mainContext.toggle_Drawer_Close}
             onKeyDown={mainContext.toggle_Drawer_Close}
         >
-            <MenuItem style={{ backgroundColor: "#ccdedb" }}>
+            <MenuItem className={classes.title}>
                 <div
                     style={
                         {

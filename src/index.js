@@ -12,7 +12,7 @@ const theme = createMuiTheme({
         secondary: {
             main: "#c4c4c4"
         },
-        type: "light"
+        type: "dark"
     }
 });
 ReactDOM.render(
